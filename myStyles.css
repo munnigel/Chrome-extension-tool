@@ -1,0 +1,35 @@
+.spinspinspin{
+    animation-name: spin;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+}
+
+#first {
+    position: absolute;
+    background-color: rgb(209, 129, 26);
+    top: 90%;
+    left: 5%;
+}
+
+#second {
+    position: absolute;
+    background-color: rgb(172, 120, 53);
+    top: 80%;
+    left: 5%;
+}
+
+#third {
+    position: absolute;
+    background-color: rgb(209, 129, 26);
+    top: 70%;
+    left: 5%;
+}
